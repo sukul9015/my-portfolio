@@ -1,0 +1,16 @@
+.container{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 13px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: all .3s ease 0s;
+    padding: 100px;
+    margin: 10px 537px;
+}
+
+.container:hover{
+transform: scale(1.1);
+}
