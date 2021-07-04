@@ -22,6 +22,16 @@ const routes: Routes = [
     //  redirectTo: 'home', pathMatch: 'full'
     loadChildren: () => import('./projects/projects.module').then((m) => m.ProjectsModule),
   },
+  {
+    path: 'experience',
+    //  redirectTo: 'home', pathMatch: 'full'
+    loadChildren: () => import('./experience/experience.module').then((m) => m.ExperienceModule),
+  },
+  {
+    path: 'contact',
+    //  redirectTo: 'home', pathMatch: 'full'
+    loadChildren: () => import('./contact/contact.module').then((m) => m.ContactModule),
+  },
 ];
 
 @NgModule({
