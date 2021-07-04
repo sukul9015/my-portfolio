@@ -2,11 +2,59 @@
 
 <div class="main-content">
 
-    <p>home works!</p>
+    <!-- <p>home works!</p> -->
+    <section class="banner">
+       
+        <div class="wrapper fadeInDown">               
+                <div class="fadeIn first">
+                    <h1 class="banner-text">HEY !</h1>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12" *ngIf="is_mobile">
+                            <img src="../../assets/profile-pic.jpeg" id="icon" alt="User Icon" />
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                        
+                            <h6 class="banner-text para">I am Ashutosh Kumar, final year B.Tech student of Nit Patna, graduating in 2021.
+                                 I am doing a Full Stack Developer Intern at Docty Inc. 
+                            </h6>
+                            <input class="more" type="button" value="Read More >>>" [routerLink]="'/about'">
 
-    <div class="container">
-        <h1>Hello everyone</h1>
-    </div>
+                        </div>
+                        <div class="col-lg-6" *ngIf="!is_mobile">
+                            <img src="../../assets/profile-pic.jpeg" id="icon" alt="User Icon" />
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+    </section>
+    
+    <section class="content">
+        <h1>Skills</h1>
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4">
+                <div class="container">
+                    <h1>Hello everyone</h1>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4">
+                <div class="container">
+                    <h1>Hello everyone</h1>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Carousel</h1>
+
+    </section>
+
+ 
 
 
 </div>
