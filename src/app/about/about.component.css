@@ -23,6 +23,11 @@ transform: scale(1.1);
     color: #fff;
 }
 
+
+.text-item{
+    font-size: 20px;
+}
+
 .para{
     font-size: 22px;
     font-style: normal;
