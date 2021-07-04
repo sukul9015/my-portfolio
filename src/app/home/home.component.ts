@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     
-             window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 
     
             //for checking innerwidth and screen size

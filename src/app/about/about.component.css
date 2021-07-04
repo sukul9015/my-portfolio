@@ -162,6 +162,15 @@ img{
     width: 100%;
     padding: 20px 0;
   }
+
+  .more{
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: green;
+    color: #fff;
+    font-size: 25px;
+    margin: 20px 0;
+}
   
   @media only screen and (max-width: 600px) {
     .row{
@@ -177,11 +186,5 @@ img{
         font-style: italic;
     }
 
-    .more{
-        padding: 15px 25px;
-        border-radius: 8px;
-        background-color: green;
-        color: #fff;
-        font-size: 25px;
-    }
+
   }

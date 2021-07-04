@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top ">
-  <a class="navbar-brand mr-auto" href="#">Portfolio</a>
+  <a class="navbar-brand mr-auto"[routerLink]="'/'">Portfolio</a>
   <a class="navbar-brand" [routerLink]="'/'" *ngIf="!is_mobile">Home</a>
   <a class="navbar-brand" [routerLink]="'/about'" *ngIf="!is_mobile">About</a>
   <a class="navbar-brand" [routerLink]="'/project'" *ngIf="!is_mobile">Projects</a>
