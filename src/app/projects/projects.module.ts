@@ -4,7 +4,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { ProjectsRoutingModule } from './projects-routing.module';
 import { ProjectsComponent } from './projects.component';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [ProjectsComponent],
@@ -13,7 +12,6 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     ProjectsRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    SlickCarouselModule,
   ],
 })
 export class ProjectsModule {}
